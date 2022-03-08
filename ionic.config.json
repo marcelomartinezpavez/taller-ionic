@@ -1,0 +1,13 @@
+{
+  "name": "Taller",
+  "integrations": {
+    "capacitor": {}
+  },
+  "proxies": [
+    {
+      "path": "http://localhost:8080/cliente",
+      "proxyUrl": "http://cors.api.com/cliente"
+    }
+  ],
+  "type": "react"
+}
